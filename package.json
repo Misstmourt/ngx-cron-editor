@@ -1,21 +1,21 @@
 {
-  "name": "ngx-cron-editor",
+  "name": "cron-editor-fr",
   "description": "A cron expression generator for Angular 4+",
-  "author": "Håvard D. Johansen",
+  "author": "Madjid ZIAD",
   "contributors": [
     "Claudiu Constantin",
     "Eduardo Sarmiento"
   ],
-  "version": "0.3.1",
+  "version": "0.0.2",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/haavardj/ngx-cron-editor"
+    "url": "git+https://github.com/Misstmourt/ngx-cron-editor.git"
   },
   "bugs": {
-    "url": "https://github.com/haavardj/ngx-cron-editor/issues"
+    "url": "https://github.com/Misstmourt/ngx-cron-editor/issues"
   },
-  "homepage": "https://github.com/haavardj/ngx-cron-editor",
+  "homepage": "https://github.com/Misstmourt/ngx-cron-editor",
   "keywords": [
     "angular",
     "cron",
@@ -78,5 +78,9 @@
     "lib": {
       "entryFile": "src/app/cron-editor/cron-editor.module.ts"
     }
+  },
+  "main": "cron-editor.js",
+  "directories": {
+    "doc": "docs"
   }
 }
